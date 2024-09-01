@@ -1884,7 +1884,6 @@ blockquote {
 @media screen and (max-width: 991px) {
   .welcome-card-personal {
     justify-content: normal;
-
   }
   .welcome-card-personal .cover-image {
     margin-bottom: 2.5rem;
@@ -4305,6 +4304,13 @@ figure {
   line-height: 25px;
   text-align: left;
   margin: 0 1.5rem 1rem 0;
+}
+
+.jt-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 @media only screen and (max-width: 767px) {
